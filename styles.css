@@ -5,7 +5,7 @@
 @layer components {
   /*TopBar*/
   .topbar {
-    @apply flex bg-[#333] justify-between;
+    @apply flex bg-[#333] justify-between py-3 px-12;
   }
   .language-and-currency {
     @apply text-gray-300;

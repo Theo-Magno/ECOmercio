@@ -561,6 +561,10 @@ video {
   justify-content: space-between;
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .language-and-currency {
@@ -594,6 +598,15 @@ video {
   line-height: 2.25rem;
 }
 
-.underline {
+#root .h-full {
+  height: 100%;
+}
+
+#root .text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+#root .underline {
   text-decoration-line: underline;
 }

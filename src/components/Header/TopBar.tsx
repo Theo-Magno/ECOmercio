@@ -19,17 +19,19 @@ const TopBar = () => {
     <div className="topbar">
       <div className="language-and-currency">
         <Select
+          variant="standard"
           value={language}
           onChange={handleLangChange}
-          sx={{ color: "#b3b3b3" }}
+          className="text-gray-300 h-full"
         >
           <MenuItem value={"PT-BR"}>PT-BR</MenuItem>
           <MenuItem value={"EN-US"}>EN-US</MenuItem>
         </Select>
         <Select
+          variant="standard"
           value={currency}
           onChange={handleCurrencyChange}
-          sx={{ color: "#b3b3b3" }}
+          className="text-gray-300"
         >
           <MenuItem value={"BRL"}>BRL</MenuItem>
           <MenuItem value={"USD"}>USD</MenuItem>

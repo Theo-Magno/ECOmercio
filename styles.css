@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /*TopBar*/
+  .topbar {
+    @apply flex bg-[#333] justify-between;
+  }
+  .language-and-currency {
+    @apply text-gray-300;
+  }
+  .login-and-signup {
+    @apply flex items-center text-gray-300 text-lg;
+  }
+
+  /*MainSection*/
+  .main-section {
+    @apply py-8 flex;
+  }
+  .full-logo {
+    @apply flex items-center size-20 text-3xl;
+  }
+}

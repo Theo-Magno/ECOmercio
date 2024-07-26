@@ -8,7 +8,11 @@ const MainSection = () => {
   return (
     <div className="main-section">
       <div className="full-logo">
-        <img src="../../public/ECOmercioLogo.png" alt="Logo da aplicação" />
+        <img
+          src="../../public/ECOmercioLogo.png"
+          alt="Logo da aplicação"
+          className="logo-img"
+        />
         <h1>ECOmercio</h1>
       </div>
       <form onSubmit={handleSubmit}>
